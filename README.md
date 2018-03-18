@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to PhyloDoJo - a space reserved for immersive learning...in phylogenetics
 
 You can use the [editor on GitHub](https://github.com/phylodojo/phylodojo.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
