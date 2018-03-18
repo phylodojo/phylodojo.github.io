@@ -16,3 +16,7 @@ Day 5: Introduction to R for Phylogenetics
 
 **Please check back here during the first week in April for updates.**
 **I will provide instructions for you to get prepared before the workshop.**
+
+Questions? 
+Vinson P. Doyle
+sonofvin [at] gmail.com
