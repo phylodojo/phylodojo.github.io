@@ -1,4 +1,4 @@
-# Welcome to PhyloDoJo
+# PhyloDoJo
 ## a space reserved for immersive learning...in phylogenetics
 
 This page is here to support the workshop: Phylogenetic Data Analysis in Practice.
