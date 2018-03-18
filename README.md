@@ -18,5 +18,7 @@ Day 5: Introduction to R for Phylogenetics
 **I will provide instructions for you to get prepared before the workshop.**
 
 Questions? 
+
 Vinson P. Doyle
+
 sonofvin [at] gmail.com
