@@ -3,7 +3,7 @@
 
 This page is here to support the workshop: Phylogenetic Data Analysis in Practice.
 
-The first workshop will be at the Universidade Federal Rural do Pernambuco from April 16th - April 20th.
+The first workshop will be at the Universidade Federal Rural de Pernambuco from April 16th - April 20th.
 
 ```markdown
 We will cover the following topics:
@@ -14,5 +14,5 @@ Day 4: Bayesian Data Analysis, Partitioned Data
 Day 5: Introduction to R for Phylogenetics
 ```
 
-***Please check back here during the first week in April for updates.
-I will provide instructions for you to get prepared before the workshop
+**Please check back here during the first week in April for updates.**
+**I will provide instructions for you to get prepared before the workshop.**
