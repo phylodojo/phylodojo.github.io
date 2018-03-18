@@ -1,9 +1,18 @@
-## Welcome to PhyloDoJo
-# a space reserved for immersive learning...in phylogenetics
+# Welcome to PhyloDoJo
+## a space reserved for immersive learning...in phylogenetics
 
-You can use the [editor on GitHub](https://github.com/phylodojo/phylodojo.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This page is here to support the workshop: Phylogenetic Data Analysis in Practice.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The first workshop will be at the Universidade Federal Rural do Pernambuco from April 16th - April 20th.
+
+```markdown
+We will cover the following topics:
+Day 1: Tree thinking & Data Acquisition
+Day 2: Alignment & Alignment Uncertainty
+Day 3: Model Testing & Maximum Likelihood Data Analysis
+Day 4: Bayesian Data Analysis, Partitioned Data
+Day 5: Introduction to R for Phylogenetics
+```
 
 ### Markdown
 
