@@ -12,7 +12,7 @@ Day 1: Tree thinking & Data Acquisition
 Day 2: Alignment & Alignment Uncertainty
 Day 3: Model Testing & Maximum Likelihood Data Analysis
 Day 4: Bayesian Data Analysis, Partitioned Data
-Day 5: Introduction to R for Phylogenetics, Assistance with data analysis and interpretation.
+Day 5: Introduction to R for Phylogenetics, Individual Consultation
 ```
 I will post a more detailed schedule close to the start of the workshop.
 
