@@ -27,8 +27,9 @@ I will post a more detailed schedule close to the start of the workshop.
 7. download and install [SequenceMatrix](http://www.ggvaidya.com/taxondna/)
 8. download and install [Tracer](http://tree.bio.ed.ac.uk/software/tracer/)
 9. download and install [R](https://www.r-project.org/) and [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/) - If you have questions about how to install R, be sure to read the [FAQs](https://cran.r-project.org/faqs.html)
-10. It will also be useful for you if you have some sequence data of your own that comes from organisms for which you have some familiarity.  
+10. It will also be useful for you if you have some sequence data of your own that comes from organisms for which you have some familiarity, but this is not essential.
 
+CHECK BACK FOR FINAL UPDATES ON APRIL 13th.
 
 Questions? 
 
