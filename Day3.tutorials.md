@@ -92,11 +92,39 @@ If you have trouble installing it and you would like to do so, please ask me on 
 
 2. Now, lets look at the output files from the bootstrap analysis. You will want to download all of the files that end in boot.tre.
 
-3. Make sure the boot.tre files are in the same directory/folder as the best.tre file that represents the tree with the best likelihood score. Using sumtrees.py, summarize the **split frequencies** and map those frequencies to the best tree. Assuming your files are in /home/ubuntu/GarliAnalyses, issue the following commands in the terminal:  
+3. Make a new directory called ```mlSupport``` and transfer all of the boot.tre files to that directory/folder as well as the best.tre file that represents the tree with the best likelihood score. Using sumtrees.py, summarize the **split frequencies** and map those frequencies to the best tree. Assuming your files are in /home/ubuntu/mlSupport, issue the following commands in the terminal:
+  - ```cd /home/ubuntu/mlSupport```
   - ```sumtrees.py  --percentages --no-summary-metadata --decimals=0 -o ascos.its.mafft.GINS-i.best.support.tre -t *.best.tre  *boot.tre```
 
-  - If you want to see the options that are available in sumtrees: ```sumtrees.py -h```
-  - If you are using Windows, I will map the bootstrap support values for you and upload the annotated tree to github.
+  - If you want to see the options that are available in sumtrees: ```sumtrees.py -h```  
+  - If you are using Windows, you can install Python and Dendropy. It is fairly easy:  
+    - 1. Download python 3.4
+    - 2. open cmd prompt: ```py -m pip install requests```
+    - 3. substitute your specific computer username for USERNAME in the following on the cmd prompt: ```cd C:\Users\USERNAME\AppData\Local\Programs\Python\Python36\```
+    - 4. You might need this, but skip it for now and lets see if it works without: https://superuser.com/questions/949560/how-do-i-set-system-environment-variables-in-windows-10
+    - 5. Change to the directory where the python scripts are (again, substitute your specific computer username for USERNAME): ```cd C:\Users\USERNAME\AppData\Local\Programs\Python\Python36\Scripts```
+    - 6. While still in the cmd prompt: pip install dendropy
+    - 7. Now change to the folder where your tree files are using the ```cd``` command.
+    - 8. To run dendropy (and maybe any other python script) from the cmd prompt: ```C:\Users\ander\AppData\Local\Programs\Python\Python36\Scripts\sumtrees.py``` (also for sumlabels.py) OR copy to your working directory with the following while in the cmd prompt is already in the directory with tree files: ```copy C:\Users\ander\AppData\Local\Programs\Python\Python36\Scripts\sumtrees.py .```
+    - 9. Now you can run the following command:  ```sumtrees.py  --percentages --no-summary-metadata --decimals=0 -o ascos.its.mafft.GINS-i.best.support.tre -t *.best.tre  *boot.tre```  
+
+Among the output printed to the screen, you should see something like this:  
+```SumTrees:  - 2553 trees considered in total for split support assessment.
+SumTrees:  - Tree rooting as given by tree statement (defaults to unrooted).
+SumTrees:  - Trees treated as unweighted.
+SumTrees:  - 8 unique taxa across all trees.
+SumTrees:  - 74 unique splits out of 35261 total splits counted.
+SumTrees:  - 65 unique non-trivial splits out of 12284 total non-trivial
+          splits counted.
+SumTrees: Mapping support to target tree ...
+SumTrees: Parsed 'garli_run.run01.best.tre': 1 tree(s) in file
+SumTrees: Writing results ...
+SumTrees: Results written to: 'ascos.its.mafft.GINS-i.best.support.tre'.
+SumTrees: Summarization completed.
+SumTrees: Began at: 2018-04-18 17:44:50.926419.
+SumTrees: Ended at: 2018-04-18 17:44:54.146795.
+SumTrees: Run time: 0 hour(s), 00 minute(s), 03.220376 second(s).
+```
 
 4. Now we can open our tree in FigTree. You can download FigTree from here, if you have not already done so: http://tree.bio.ed.ac.uk/software/figtree/
   - We will walk through how to visualize support values, root our tree, modify branch widths, and export.
